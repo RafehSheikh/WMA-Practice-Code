@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            /* background-color: #000; */
+        }
+        .container{
+            width: 100%;
+            height: 650px;
+            /* border: 6px solid rgb(160, 211, 84); */
+            display: flex;
+            justify-content:space-evenly;
+            align-items: center;
+            flex-direction:column;
+        }
+        .box1{
+            display: flex;
+            /* justify-content: space-between; */
+            align-items: center;
+            flex-direction: column;
+        }
+        .box1 img{
+            margin: 70px 50px 0px 50px;
+            display: inline-block;
+            width: 450px;
+            height: 300px;
+            /* border: 2px solid black; */
+        }
+        .box1 input{
+            width: 650px;
+            height: 50px;
+            display: inline-block;
+            margin: 0px 50%;
+            border: 6px solid whitesmoke;
+            border-radius: 28px;
+            padding-left: 40%;
+            background: whitesmoke;
+            font-size: 25px;
+            font-family: cursive;
+        }
+        .box2{
+            /* background: #000; */
+            display: flex;
+            flex-direction: row;
+            /* justify-content: space-evenly; */
+            /* align-items: center; */
+            
+        }
+        .box2 img{
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            margin: 0px 25px;
+            border: 2px solid whitesmoke;
+            border-radius: 28px;
+            background-color: whitesmoke;
+        }
+        
+        .box2 img:hover{
+            background: #b7e5f7;
+            
+        }
+
+        .box1 input:hover{
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+            <div class="box1">
+                <img src="/img/google2 - 2160x1597.png" alt="">
+                <input type="text" name="" id="search" placeholder="serach here">
+            </div>    
+                <div class="box2">
+                    <a href="https://www.youtube.com/"> <img src="/task/img/youtube.png" alt=""></a>
+                    <a href="https://github.com/"> <img src="/task/img/github.png" alt=""></a>
+                    <a href="https://www.netflix.com/pk/login"> <img src="/task/img/Netflix.png" alt=""></a>
+                    <a href="https://www.instagram.com/accounts/login/"> <img src="/task/img/instagram.png" alt=""></a>
+                    <a href="https://twitter.com/login?lang=en"> <img src="/task/img/twitter.png" alt=""></a>
+                    
+                </div>
+            
+    </div>
+
+</body>
+</html>
