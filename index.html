@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* Exercise 01_CSS*/
+        #box1{
+            margin: 10px;
+            width: 600px;
+            height: 350px;
+            background-color: yellow;
+            border: 2px solid black;
+        }
+        .one h1{
+            color: red;
+        }
+        .one .para1{
+            width: 100%;
+            padding-left: 450px;
+            font-size: 19px;
+            margin-top: 40px;
+        }
+        .one .para2{
+            width: 100%;
+            color: blue;
+            margin-top: 40px;
+            font-size: 28px;
+        }
+
+        /*Exercise 02_CSS */
+        #box2{
+            margin: 10px;
+            width: 600px;
+            height: 300px;
+            border:2px solid black;
+            background-color: pink;
+        }
+        .two h1{
+            color: red;
+            width: 100%;
+            padding: 0px 125px;
+            font-size: 40px;
+        }
+        .two p{
+            width: 100%;
+            color: blue;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+
+        /* Exercise 03_CSS:-/Set bg-Image for a page*/
+        /* .container{
+            width: 100%;
+            height: 800px;
+            background-image: url('/task/img/bgImg.jpg');
+            background-size: 100%;
+            background-repeat: no-repeat;
+        } */
+        
+        /* Exercise 04_CSS:- Image reapeat for whole page*/
+        .container{
+            width: 100%;
+            height: 800px;
+            background-image: url('/task/img/bgImg.jpg');
+            background-size: 600px;
+            background-repeat: repeat;    
+            
+        }
+
+        /*Exercise 05_CSS */
+        #box3{
+            border: 2px solid #000;
+            background-color: #fff;
+            width: 600px;
+            height: 300px;
+            margin-top: 150px;
+            margin-left: 10px;
+        }
+        .three h1{ 
+            background-color: rgb(204, 204, 204);
+            margin: 40px 20px;
+        }
+        .three h2{ 
+            background-color: rgb(104, 99, 138); 
+            margin: 40px 20px;
+            
+        }
+        .three p{  
+            background-color: yellow; 
+            margin: 40px 20px;
+
+        }
+        
+        /* Exercise 06_CSS */
+        #box4{
+            margin: 30px 10px;
+            border: 6px solid #000;
+            background-color: #fff;
+            width: 650px;
+            height: 300px;
+        }
+        .four p{
+            margin: 30px 10px;
+            text-decoration: overline;
+        }
+        .four h1{
+            margin: 30px 10px;
+            text-decoration: line-through;
+
+        }
+        .four h2{
+            margin: 30px 10px;
+            text-decoration: underline;
+        }
+        .four a{
+            margin: 30px 10px;
+            color: blue;
+            text-decoration: none;
+        }
+
+        /* Exercise 07_CSS */
+        .five{
+            width: 600px;
+            height: 150px;
+            margin: 10px;
+            border: 2px solid black;
+            background-color: cadetblue;
+            padding: 25px 50px 75px 100px;
+        }
+
+        /* Exercise 08_CSS */
+        .six{
+            width: 600px;
+            height: 300px;
+            background-color: blanchedalmond;
+            margin: 20px;
+            padding: 50px;
+            border: 15px solid green;
+        }
+    </style>
+</head>
+<body>
+    <!-- Exercise 03 & 04 apply on container -->
+    <div class="container">
+        
+        <!-- Exercise 01 -->
+        <div id="box1" class="one">
+            <h1>This is a Heading</h1>
+            <p class="para1">This is a paragraph</p>
+            <p class="para2">This is another paragraph</p>
+        </div>
+        
+        <!-- Exercise 02 -->
+        <div id="box2" class="two">
+            <h1>This is a Heading</h1>
+            <p class="para1">This is a paragraph</p>
+            <p class="para2">This is another paragraph</p>
+        </div>
+
+        <!-- Exercise 05 -->
+        <div id="box3" class="three">
+            <h1>Text with a gray background</h1>
+            <h2>Text with a blue background</h2>
+            <p>Text with a yellow background</p>
+        </div>
+    
+        <!-- Exercise 06 -->
+        <div id="box4" class="four">
+            <p>Paragraph with a line over it</p>
+            <h1>Heading with a line through it</h1>
+            <h2>Heading with an underline</h2>
+            <a href="https://en.wikipedia.org/wiki/Artificial_intelligence">This link is not underlined.</a>
+            <span>Can you believe that such a thing as non-underlined links exists?!</span>
+        </div>
+
+        <!-- Exercise 07 -->
+        <div class="five">
+            This div element has a top padding of 25px, a right padding of 50px, a bottom padding of 75px, and a left padding of 100px
+        </div>
+
+        <!-- Exercise 08 -->
+        <div class="six">
+            This is the content of the box. We have added a 50px padding, 20px margin and 15px green border Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, animi molestias quisquam in architecto atque accusamus tenetur dicta. Vero, natus obcaecati et ipsa dolores libero. Impedit nemo voluptatibus sequi sapiente modi adipisci asperiores eos quam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et nihil iste officia recusandae alias quo maiores quibusdam corrupti hic eligendi?
+        </div>
+    </div>
+</body>
+</html>
